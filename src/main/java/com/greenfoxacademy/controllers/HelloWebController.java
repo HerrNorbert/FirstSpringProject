@@ -26,5 +26,6 @@ public class HelloWebController {
         model.addAttribute("name", name);
         model.addAttribute("count", counter);
         return "greeting";
+        //komment for teszt codeship
     }
 }
